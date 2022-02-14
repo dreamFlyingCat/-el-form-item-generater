@@ -28,6 +28,7 @@
 | optionValue  | 选项中value的key  | String |  -- |   否|  value   |
 | optionLabel  | 选项中label的key  | String |  -- |   否| label   |
 | optionKey  | 选项中key的key  | String |  -- |   否| value   |
+| format  | type为date或者daterange时日期格式  | String |  -- |   否| yyyy-MM-dd HH:mm:ss   |
 | slot  | 是否为插槽  | boolean |  true或者false|   否| false   |
 
 ## type为upload时可用的属性
