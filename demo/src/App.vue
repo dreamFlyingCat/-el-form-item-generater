@@ -2,9 +2,9 @@
   <div id="app">
     <el-form ref="testForm">
       <el-form-item-generater :forms="projectForms" :models="userLeaveInfo">
-        <!-- <template v-slot:test>
-          <h1>Here might be a page title</h1>
-        </template> -->
+        <template v-slot:test>
+          <h1>这是一个插槽</h1>
+        </template>
       </el-form-item-generater>
     </el-form>
   </div>
