@@ -6,13 +6,20 @@
           <h1>这是一个插槽</h1>
         </template>
       </el-form-item-generater>
+       <GenerateFormItem :forms="projectForms" :models="userLeaveInfo">
+        <template v-slot:test>
+          <h1>这是一个插槽</h1>
+        </template>
+      </GenerateFormItem>
     </el-form>
   </div>
 </template>
 
 <script>
+import { GenerateFormItem } from 'el-form-item-generater'
 export default {
   name: 'App',
+  components: {GenerateFormItem},
   data() {
     return {
       userLeaveInfo: {
